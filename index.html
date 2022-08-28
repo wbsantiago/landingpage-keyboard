@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   </head>
   <body id="body">
+    
     <header id="header">
-      <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/124/124125.png" alt="keyboard as a logo" width="36">
+      
+      <a href="index.html"><img id="header-img" src="https://cdn-icons-png.flaticon.com/512/124/124125.png" alt="keyboard as a logo"></a>
+
       <nav id="nav-bar">
         <ul>
           <li><a href="#product" class="nav-link">Vantagens</a></li>
@@ -17,20 +20,26 @@
           <li><a href="#prices" class="nav-link">Valores</a></li>
         </ul>
       </nav>
+
     </header>
+    
     <main>
       
       <section id="introduction">
-
+        <!-- <img class="img-keyboard" src="https://images.pexels.com/photos/3829230/pexels-photo-3829230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="teclado"> -->
         <h1>Teclado mecânicos feito sob encomenda</h1>
           <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <label for="client-email">Entre em contato: </label> 
-          <input id="email" type="email" name="email" placeholder="Digite seu e-mail" >
+          <div class="label">
+            <label for="client-email">Entre em contato: </label> 
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" >
+          </div>
           <input id="submit" type="submit" value="Enviar">
         </form>
+
       </section>
 
       <div class="container">
+
       <section id="product">
         
         <div class="product-grid">
@@ -66,11 +75,14 @@
       </section>
 
       <section id="video-section">
+
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3BO8W6cJ7wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
+        
       </section>
 
       <section id="prices">
+
           <div class="prices-grid">
             <h4>Teclado 61 teclas </h4>
             <h2>R$468,90</h2>
@@ -80,6 +92,7 @@
             <p>Lorem ipsum.</p>
             <button type="submit">Encomendar</button>
           </div>
+
           <div class="prices-grid">
             <h4>Teclado 68 teclas</h4>
             <h2>R$568,90</h2>
@@ -89,6 +102,7 @@
             <p>Lorem ipsum.</p>
             <button type="submit">Encomendar</button>
           </div>
+
           <div class="prices-grid">
             <h4>Teclado 84 teclas</h4>
             <h2>R$668,90</h2>
@@ -98,7 +112,9 @@
             <p>Lorem ipsum.</p>
             <button type="submit">Encomendar</button>
           </div>
+
       </section>
+      
       </div>
     </main>
     <footer>
