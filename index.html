@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   </head>
-  <body>
+  <body id="body">
     <header id="header">
       <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/124/124125.png" alt="keyboard as a logo" width="36">
       <nav id="nav-bar">
@@ -23,9 +23,11 @@
       <section id="introduction">
 
         <h1>Teclado mecânicos feito sob encomenda</h1>
-        <label for="client-email">Entre em contato: </label> <input type="email" name="client-email" placeholder="Digite seu e-mail" ></form>
-        <button type="submit">Enviar</button>
-
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="client-email">Entre em contato: </label> 
+          <input id="email" type="email" name="email" placeholder="Digite seu e-mail" >
+          <button id="submit" type="submit">Enviar</button>
+        </form>
       </section>
 
       <div class="container">
@@ -63,8 +65,9 @@
 
       </section>
 
-      <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3BO8W6cJ7wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <section id="video-section">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3BO8W6cJ7wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
       </section>
 
       <section id="prices">
@@ -100,11 +103,11 @@
     </main>
     <footer>
       <ul>
-        <li><a href="./index.html">Privacidade</a></li>
-        <li><a>Terms</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="#body">Privacidade</a></li>
+        <li><a href="#body">Terms</a></li>
+        <li><a href="#body">Contact</a></li>
       </ul>
-      <p></p>
+      <p>Copyright 2022, Custom Keyboards</p>
     </footer>
   </body>
 </html>
